@@ -16,19 +16,15 @@
   flex-direction: column;
   overflow: hidden;
 }
-
-/* Header section styled gray */
 .account-settings-card h2 {
   margin: 0;
   padding: 1rem 1.5rem;
   font-size: 1.25rem;
   font-weight: 600;
   color: #333;
-  background-color: #f1f1f1; /* Light gray header */
+  background-color: #f1f1f1;
   border-bottom: 1px solid #e0e0e0;
 }
-
-/* Padding added after header */
 .profile-section {
   display: flex;
   align-items: flex-start;
@@ -75,6 +71,6 @@
   font-size: 0.875rem;
   color: #666;
   padding-bottom: 1rem;
-  border-bottom: 1px dotted #ccc; /* Dotted line */
+  border-bottom: 1px dotted #ccc;
   margin-bottom: 1rem;
 }
