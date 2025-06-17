@@ -3,12 +3,11 @@ import { useNavigate } from "react-router-dom";
 import "./Signup.css";
 
 export default function Signup() {
-  const navigate = useNavigate(); // ⬅️ React Router hook
+  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Add validation here if needed
-    navigate("/account"); // ⬅️ Navigate to Account Settings
+    navigate("/account");
   };
 
   return (
